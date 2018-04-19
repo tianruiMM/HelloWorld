@@ -1,4 +1,4 @@
 def hello(msg):
-    print("hello "+msg)
+    return "hello "+msg
 if __name__ == "__main__":
     hello("terry")
