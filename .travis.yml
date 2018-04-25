@@ -6,5 +6,7 @@ install:
 script:
     - nosetests
 notifications:
-    slack:
-        on_success: always
+    email:
+      - shining_0212@163.com
+    on_success: always
+    on_failure: always
